@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陶喆的音乐产房</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>陶喆的音乐产房</h1>
+            <div class="divider"></div>
+        </header>
+        
+        <main class="timeline">
+            <!-- 时间线项目将通过JavaScript动态生成 -->
+        </main>
+        
+        <!-- 修改后的播放器结构 -->
+<div class="player-floating" id="playerContainer">
+    <div class="player-body">
+        <div class="player-header">
+            <span class="drag-handle">⎌</span>
+            <span id="nowPlaying">未播放</span>
+        </div>
+        <div class="player-content">
+            <div class="time-display">
+                <span id="currentTime">0:00</span>
+                <span class="time-separator">/</span>
+                <span id="duration">0:00</span>
+            </div>
+            <div class="player-controls">
+                <button id="playModeBtn" title="切换播放模式"><i class="fas fa-retweet"></i></button>
+                <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
